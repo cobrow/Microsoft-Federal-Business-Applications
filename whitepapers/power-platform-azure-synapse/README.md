@@ -58,7 +58,7 @@ If you have an associated Azure Commercial subscription with your tenant, then y
 ### Azure Commercial Advanced Networking Configuration
 If you want to setup your Azure Synapse Workspace and your Azure Storage account to restrict the IP addresses that can access them, you will need to do an additional step to allow Power Platform GCC to access those resources.
 
-When you go to create a new Azure Synapse Link, it will tell you your environment is located in US Gov Virginia, or US Gov Texas.  You will need to download the latest Azure for Government IP Ranges documentation below,
+When you go to create a new Azure Synapse Link, it will tell you your environment is located in US Gov Virginia, or US Gov Texas (NOTE: Synapse Link is not currently available in Gov Arizona).  You will need to download the latest Azure for Government IP Ranges documentation below,
 
 [Azure IP Ranges and Service Tags for Azure for Government](https://www.microsoft.com/download/details.aspx?id=57063)
 
@@ -302,7 +302,7 @@ Once provisioned, you need to grant the "Export to data lake" service principal 
 * Storage Blob Data Contributor
 * Storage Blob Data Owner
 
-Open up the Marker Portal in GCC (https://make.gov.powerapps.us) and select the environment you want to setup.
+Open up the Power Platform Maker Portal in GCC (https://make.gov.powerapps.us) and select the environment you want to setup.
 
 Click on the Azure Synapse Link menu item
 
